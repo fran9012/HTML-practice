@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="keywords" content="Online, Shopping" />
+        <title>Friendship Zone</title>
+    </head>
+    <body>
+        <img src = "yujii.jpg" alt = "This image is not available" width = "200" height = "200"/><br/>
+        <header>
+            <h1 style = "text-align:center">Friendship Zone</h1>
+            <h2 style = "text-align: left">Add your details to register</h2>
+        </header>
+        <form method = "POST" action = "registrationconfirmation.html">
+            <table>
+                <tr>
+                    <td><br><label for = "name">Name: </label></td>
+                    <td><br><input type = "text" placeholder = "Enter your name" required/></td>
+                </tr>
+                <tr>
+                    <td><br><label for = "email">Email:</label></td>
+                    <td><br><input type = "email" required/><br></td>
+                </tr>
+                <tr>
+                    <td><br><label for = "age">Age:</label></td>
+                    <td><br><input type = "text" required/></td>
+                </tr>
+                <tr>
+                    <td><br><label for = "birthday">Birthday:</label></td>
+                    <td><br><input type = "date" required/></td>
+                </tr>
+                <tr>
+                    <td><br><label for = "gender">Gender</label></td>
+                    <td><br>M<input type = "radio" id = "male" value = "M" checked/>F<input type = "radio" id = "female" value = "F"/></td>
+                </tr>
+                <tr>
+                    <td><br><label for = "about me">About me:</label></td>
+                    <td><br><textarea rows = "3" cols = "50">Tell us about yourself!</textarea></td>
+                </tr>
+                <tr>
+                    <td><br><label for = "phone number"><b>Phone number:</b></label></td>
+                    <td><br><input type = "text" id = "phone number" pattern = "+ [0-9]"/></td>
+                </tr>
+                <tr>
+                    <td><br><label for = "interested"><b>Interested in:</b></label></td>
+                    <td><br><input type = "checkbox" checked/>Friendship <input type = "checkbox"/>Dating</td>
+                    <td><br><label for = "attachment"><b>Attachement:</b><input type = "file"/></label></td>
+                </tr>
+                <tr>
+                    <td><br><a href = "registrationconfirmation.html"><input type = "submit" value = "Register"/></a></td>
+                    <td><br><a href = "registrationconfirmation.html"><input type = "submit" value = "Register as admin"/></a></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
